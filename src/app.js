@@ -10,11 +10,11 @@ const mysql = require('mysql');
 const myConnection = require('express-myconnection');
 
 dbOptions = {
-    host: process.env.HOST || '',
-    user: process.env.USER || 'root',
-    password: process.env.PASSWORD || '',
-    port: process.env.DB_PORT || 3306,
-    database: process.env.DB_NAME || 'zbm'
+    host: 'bjgexpgoqeoua8pnvews-mysql.services.clever-cloud.com',
+    user: 'u6q3d9qh1wu3kz25',
+    password: 'u6q3d9qh1wu3kz25',
+    port: 3306,
+    database: 'bjgexpgoqeoua8pnvews'
 }
 app.use(myConnection(mysql, dbOptions, 'single'));
 
