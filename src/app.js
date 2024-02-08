@@ -13,7 +13,7 @@ dbOptions = {
     host: 'bjgexpgoqeoua8pnvews-mysql.services.clever-cloud.com',
     user: 'u6q3d9qh1wu3kz25',
     password: 'u6q3d9qh1wu3kz25',
-    port: 3306,
+    port: "3306",
     database: 'bjgexpgoqeoua8pnvews'
 }
 app.use(myConnection(mysql, dbOptions, 'single'));
