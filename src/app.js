@@ -12,7 +12,7 @@ const myConnection = require('express-myconnection');
 dbOptions = {
     host: 'bjgexpgoqeoua8pnvews-mysql.services.clever-cloud.com',
     user: 'u6q3d9qh1wu3kz25',
-    password: 'u6q3d9qh1wu3kz25',
+    password: 'JPBxFjs8R9TvTF24LV9Z',
     port: "3306",
     database: 'bjgexpgoqeoua8pnvews'
 }
